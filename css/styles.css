@@ -413,7 +413,9 @@ button {
 }
 
 
-
+.portfolio .container {
+    overflow: hidden;
+}
 
 .portfolio-list-title {
     font-weight: 500;
@@ -467,8 +469,8 @@ button {
 .portfolio-list-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 
 }
@@ -541,7 +543,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 
 }
 
@@ -571,6 +573,7 @@ button {
 
 
 
+.footer-icon-social-link:focus,
 .footer-icon-social-link:hover {
     background-color: #31d0aa;
 }
